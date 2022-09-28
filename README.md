@@ -1,3 +1,7 @@
-# primeirod_3t
+# Terceiro Trimestre
 
+## Identificação
 Gabrielle Steimacher Silva N:09
+
+## Conteúdo
+HTML,CSS e javascript
