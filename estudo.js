@@ -1,13 +1,7 @@
-let nome = "Gabrielle";
-let numero = 09; 
-let turma = "D"; 
-let serie = "1"; 
-
 function escreva(){
     document.write();
 }
 let tabuada = 2;
-
 function escreva(){
     document.write(tabuada + " x 1 =" +(tabuada*1)+"<br>");
     document.write(tabuada + " x 2 =" +(tabuada*2)+"<br>");
@@ -19,4 +13,19 @@ function escreva(){
     document.write(tabuada + " x 8 =" +(tabuada*8)+"<br>");
     document.write(tabuada + " x 9 =" +(tabuada*9)+"<br>");
     document.write(tabuada + " x 10 =" +(tabuada*10)+"<br>");
+}
+function repete(){
+    for(let i = 1; i <= 10; i++){
+        document.write("Tabuada do " + i + "<br>");
+        for(let j =1; j <= 10; j++){
+            document.write(i + " x " + j + " = "+(j*i)+"<br>");
+        }
+        document.write("<br>");
+    }
+}
+
+let lista = ["I found", "Higher", "Really dont care", "Shount my ex", "Sorry not sorry"];
+
+function minhalista(){
+    document.write(lista[2]);
 }
