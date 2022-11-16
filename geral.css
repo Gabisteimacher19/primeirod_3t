@@ -1,64 +1,68 @@
 #calculadora {
-    background: rgb(95, 107, 95);
+    background-color: rgb(43, 177, 204);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px yellowgreen;
+    box-shadow: 5px 5 px rgb(1, 1, 82);
 }
-#calculadora input:focus{
-    color:rgb(0, 0, 0);
-    background: rgb(0, 192, 176);
+#calculadoraESG {
+    background-color: rgb(153, 43, 204);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5 px rgb(1, 1, 82);
 }
 .spMes {
     border-color: black;
     border-width: 1px;
-    background:burlywood;
-
-    color: rgb(0, 0, 0);
+    border-style: dashed;
+    background-color: rgb(12, 54, 54);
+    color: beige;
     text-align: start;
     border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
 }
-
-
+#calculadora input:focus{
+    background: gray;
+    color: white;
+}
 #calculadora input {
-    background: rgb(54, 236, 124);
-    color: rgb(0, 0, 0);
+    background-color: black;
+    color: white;
     padding: 5px;
     border-radius: 5px;
 }
 #sptotal {
-    background: rgba(228, 125, 125, 0.767);
-    color: rgb(0, 255, 85);
+    background-color: black;
+    color: chartreuse;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #calculadora button {
-    background: rgb(6, 141, 17);
-    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    color: black;
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
 }
 #calculadora button:hover{
-    background: rgb(236, 222, 212);
-    color: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
- h3 {
-     color:brown;
- }
- .calcF{
-  display: none;
-
- }
-
- #input-calcF{
+h3 {
+    color: black;
+}
+.calcF {
     display: none;
-
+}
+#input-calcF {
+    display: none;
 }
 #input-calcF:checked + #calculadora .calcF {
-    display:block;
+    display: block;
 }
